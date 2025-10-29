@@ -5,6 +5,43 @@ All notable changes to the Z-Wave SmartStart QR Decoder will be documented in th
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2025-10-29
+
+### 🎉 New Features
+
+#### 📷 Camera QR Code Scanning
+- Added camera scanning functionality with live QR code detection
+- Camera icon button in QR code input field
+- Full-screen camera modal with video preview
+- Visual target box to guide QR code positioning
+- Automatic QR code detection using jsQR library
+- Auto-populate and decode after successful scan
+- Mobile-optimized (uses back camera on phones)
+- Works on desktop with webcams
+
+#### 🧹 Label Clearing on Decode
+- Automatically clears previous label when decoding new QR code
+- Prevents downloading wrong labels by mistake
+- Forces regeneration of label for each device
+- Improves workflow safety
+
+### Technical
+- Added jsQR library for QR code scanning
+- Implemented getUserMedia API for camera access
+- Added Canvas API for frame capture
+- Enhanced error handling for camera permissions
+- HTTPS/localhost required for camera access
+
+### UI/UX Improvements
+- Camera button with hover effects
+- Status messages during scanning
+- Success notification when QR detected
+- Smooth modal transitions
+- Click outside modal to close
+- Mobile-responsive camera view
+
+---
+
 ## [1.0.0] - 2025-10-29
 
 ### 🎉 Initial Release

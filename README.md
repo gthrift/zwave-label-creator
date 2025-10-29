@@ -11,6 +11,7 @@ A web-based tool to decode Z-Wave SmartStart QR codes and generate printable dev
 
 ✨ **QR Code Decoding**
 - Decode Z-Wave SmartStart QR codes instantly
+- 📷 **Camera scanning** - Point and scan with your device camera
 - Extract Device Specific Key (DSK)
 - Parse manufacturer ID, product type, and product ID
 - Display security classes and supported protocols
@@ -34,8 +35,6 @@ A web-based tool to decode Z-Wave SmartStart QR codes and generate printable dev
 - Clean, modern interface
 
 ## Demo
-
-https://gthrift.github.io/zwave-label-creator/
 
 ### Decode QR Code
 Paste your Z-Wave SmartStart QR code text to instantly decode device information:
@@ -89,19 +88,29 @@ Ensure PHP is enabled on your web server.
 
 ### Basic Usage
 
-1. **Obtain QR Code Text**
-   - Scan Z-Wave device QR code with any QR scanner app
-   - Or locate the printed code text on device packaging
+1. **Obtain QR Code**
+   - **Option A: Camera Scanning** 📷
+     - Click the camera icon in the input field
+     - Grant camera permission when prompted
+     - Position the QR code in the target box
+     - Automatic detection and decoding!
+   
+   - **Option B: Manual Entry**
+     - Scan Z-Wave device QR code with any QR scanner app
+     - Or locate the printed code text on device packaging
+     - Paste into the input field
 
 2. **Decode**
-   - Paste the QR code text into the input field
-   - Click "🔍 Decode QR Code"
+   - QR code text appears in the input field
+   - Click "🔍 Decode QR Code" (or automatic after camera scan)
    - View decoded device information
 
 3. **Generate Label**
-   - Click "🏷️ Generate Label" button (appears after decoding)
+   - Click "🏷️ Generate Label" button
    - Preview the generated label
    - Download as SVG or PNG
+
+**Note:** Camera access requires HTTPS or localhost. Works on all modern browsers with camera support.
 
 ### Export Options
 
