@@ -36,6 +36,8 @@ A web-based tool to decode Z-Wave SmartStart QR codes and generate printable dev
 
 ## Demo
 
+https://gthrift.github.io/zwave-label-creator/
+
 ### Decode QR Code
 Paste your Z-Wave SmartStart QR code text to instantly decode device information:
 
