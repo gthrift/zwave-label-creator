@@ -109,30 +109,58 @@ Ensure PHP is enabled on your web server.
 
 ## Device Database
 
-The tool includes a local `devices.json` database for offline device lookup. To add devices:
+The tool includes a local `devices.json` database for offline device lookup. 
+
+### Using the Included Database
+
+The repository comes with a pre-populated device database. For most users, this is sufficient.
+
+### Updating the Database
+
+To get the latest devices from Z-Wave JS:
+
+**Quick method:**
+1. See [DEVICE_EXTRACTION_QUICKSTART.md](DEVICE_EXTRACTION_QUICKSTART.md) for 5-minute setup
+
+**Detailed method:**
+1. See [DEVICE_EXTRACTION.md](DEVICE_EXTRACTION.md) for comprehensive guide
+
+**Using the extraction script:**
+```bash
+# Clone Z-Wave JS repository
+git clone https://github.com/zwave-js/node-zwave-js.git
+cd node-zwave-js
+
+# Run the extraction script
+python3 extract_devices.py
+
+# Copy to your tool
+cp zwave_devices_db.json /path/to/zwave-qr-decoder/devices.json
+```
+
+### Manual Device Addition
+
+To add devices manually, edit `devices.json`:
 
 ```json
 {
+  "manufacturerId": "0x0086",
+  "manufacturer": "AEON Labs",
   "devices": [
     {
-      "manufacturerId": "0x0086",
-      "manufacturer": "AEON Labs",
-      "devices": [
-        {
-          "productType": "0x0003",
-          "productId": "0x0084",
-          "label": "ZW096",
-          "description": "Smart Switch 6"
-        }
-      ]
+      "productType": "0x0003",
+      "productId": "0x0084",
+      "label": "ZW096",
+      "description": "Smart Switch 6"
     }
   ]
 }
 ```
 
 ### Database Sources
-- [Z-Wave JS Device Database](https://devices.zwave-js.io/)
-- [OpenSmartHouse Database](https://opensmarthouse.org/zwavedatabase/)
+- [Z-Wave JS Device Database](https://devices.zwave-js.io/) - Primary source
+- [OpenSmartHouse Database](https://opensmarthouse.org/zwavedatabase/) - Alternative source
+- `extract_devices.py` - Automated extraction from Z-Wave JS repository
 
 ## File Structure
 
