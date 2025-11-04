@@ -880,15 +880,15 @@
             const container = document.getElementById('labelContainer');
             container.innerHTML = '';
 
-        
+            // Reduced width from 450 to 250
             const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-            svg.setAttribute('width', '400');
+            svg.setAttribute('width', '250');
             svg.setAttribute('height', '140');
-            svg.setAttribute('viewBox', '0 0 400 140');
+            svg.setAttribute('viewBox', '0 0 250 140');
             svg.setAttribute('id', 'labelSvg');
 
             const bg = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
-            bg.setAttribute('width', '400');
+            bg.setAttribute('width', '250');
             bg.setAttribute('height', '140');
             bg.setAttribute('fill', 'white');
             svg.appendChild(bg);
@@ -981,6 +981,51 @@
             }, 100);
         }
 
+        // Helper function to generate filename for downloads
+        function generateFilename(extension) {
+            if (!decodedData) return `zwave-label.${extension}`;
+            
+            // Sanitize function to make strings filename-safe
+            const sanitize = (str) => {
+                if (!str) return '';
+                return str
+                    .replace(/[^a-zA-Z0-9-_]/g, '-') // Replace special chars with dash
+                    .replace(/--+/g, '-') // Replace multiple dashes with single dash
+                    .replace(/^-|-$/g, '') // Remove leading/trailing dashes
+                    .toLowerCase();
+            };
+            
+            // Get manufacturer name or fallback to ID
+            let manufacturer = '';
+            if (decodedData.manufacturerName && decodedData.manufacturerName !== 'Unknown') {
+                manufacturer = sanitize(decodedData.manufacturerName);
+            } else if (decodedData.manufacturerId) {
+                manufacturer = `0x${decodedData.manufacturerId.toString(16).padStart(4, '0')}`;
+            } else {
+                manufacturer = 'unknown-mfr';
+            }
+            
+            // Get device label or fallback to product type
+            let device = '';
+            if (decodedData.deviceLabel && decodedData.deviceLabel !== 'Unknown') {
+                device = sanitize(decodedData.deviceLabel);
+            } else if (decodedData.productType) {
+                device = `0x${decodedData.productType.toString(16).padStart(4, '0')}`;
+            } else {
+                device = 'unknown-device';
+            }
+            
+            // Get first 5 digits of DSK (remove dashes first)
+            let dskPrefix = '';
+            if (decodedData.dsk) {
+                dskPrefix = decodedData.dsk.replace(/-/g, '').substring(0, 5);
+            } else {
+                dskPrefix = '00000';
+            }
+            
+            return `zwave-label-${manufacturer}-${device}-${dskPrefix}.${extension}`;
+        }
+
         function downloadSVG() {
             const svg = document.getElementById('labelSvg');
             if (!svg) return;
@@ -992,7 +1037,7 @@
             
             const a = document.createElement('a');
             a.href = url;
-            a.download = `zwave-label-${decodedData.manufacturerId}-${decodedData.productId}.svg`;
+            a.download = generateFilename('svg');
             a.click();
             
             URL.revokeObjectURL(url);
@@ -1011,7 +1056,7 @@
             if (!svg) return;
 
             // Get SVG dimensions
-            const width = 400;
+            const width = 250;
             const height = 140;
 
             // Create canvas
@@ -1084,7 +1129,7 @@
                         const downloadUrl = URL.createObjectURL(blob);
                         const a = document.createElement('a');
                         a.href = downloadUrl;
-                        a.download = `zwave-label-${decodedData.manufacturerId}-${decodedData.productId}.${format}`;
+                        a.download = generateFilename(format);
                         a.click();
                         
                         URL.revokeObjectURL(downloadUrl);

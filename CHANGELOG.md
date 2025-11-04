@@ -25,10 +25,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Forces regeneration of label for each device
 - Improves workflow safety
 
+### Changed
+
+#### 📝 Export Filename Format
+- Improved filename format for exported labels
+- **New format:** `zwave-label-{manufacturer}-{device}-{DSK}.{ext}`
+- Uses manufacturer name and device label when available
+- Falls back to hex IDs (manufacturerId, productType) for unknown devices
+- Includes first 5 digits of DSK for uniqueness
+- Sanitizes special characters for cross-platform compatibility
+- **Example:** `zwave-label-aeon-labs-zw096-16215.svg` instead of `zwave-label-134-96.svg`
+
 ### Technical
 - Added jsQR library for QR code scanning
 - Implemented getUserMedia API for camera access
 - Added Canvas API for frame capture
+- Added `generateFilename()` helper function for smart naming
 - Enhanced error handling for camera permissions
 - HTTPS/localhost required for camera access
 
@@ -39,6 +51,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Smooth modal transitions
 - Click outside modal to close
 - Mobile-responsive camera view
+- More descriptive export filenames
 
 ---
 
