@@ -880,15 +880,14 @@
             const container = document.getElementById('labelContainer');
             container.innerHTML = '';
 
-            // Reduced width from 450 to 250
             const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-            svg.setAttribute('width', '250');
+            svg.setAttribute('width', '400');
             svg.setAttribute('height', '140');
-            svg.setAttribute('viewBox', '0 0 250 140');
+            svg.setAttribute('viewBox', '0 0 400 140');
             svg.setAttribute('id', 'labelSvg');
 
             const bg = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
-            bg.setAttribute('width', '250');
+            bg.setAttribute('width', '400');
             bg.setAttribute('height', '140');
             bg.setAttribute('fill', 'white');
             svg.appendChild(bg);
@@ -1056,7 +1055,7 @@
             if (!svg) return;
 
             // Get SVG dimensions
-            const width = 250;
+            const width = 400;
             const height = 140;
 
             // Create canvas
