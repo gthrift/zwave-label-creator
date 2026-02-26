@@ -1,0 +1,57 @@
+name: Update devices.json
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Every Monday at 06:00 UTC
+    - cron: "0 6 * * 1"
+
+jobs:
+  update-devices:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v4
+
+      - name: Sparse-checkout zwave-js (devices folder only)
+        uses: actions/checkout@v4
+        with:
+          repository: zwave-js/node-zwave-js
+          sparse-checkout: packages/config/config/devices
+          sparse-checkout-cone-mode: false
+          path: zwave-js
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Extract devices
+        run: |
+          python extract_devices.py \
+            zwave-js/packages/config/config/devices \
+            devices.json
+
+      - name: Check for changes
+        id: diff
+        run: |
+          git diff --quiet devices.json || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Capture zwave-js commit SHA
+        if: steps.diff.outputs.changed == 'true'
+        id: zwave_sha
+        run: |
+          sha=$(git -C zwave-js rev-parse --short HEAD)
+          echo "sha=$sha" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push updated devices.json
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add devices.json
+          git commit -m "chore: update devices.json from zwave-js@${{ steps.zwave_sha.outputs.sha }}"
+          git push
