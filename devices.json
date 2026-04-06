@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_devices": 2337,
+    "total_devices": 2338,
     "source": "z-wavejs/zwave-js device configurations",
     "extraction_date": null
   },
@@ -15743,6 +15743,19 @@
     {
       "manufacturer": "Inovelli",
       "manufacturerId": "0x031e",
+      "label": "VZW30-SN",
+      "description": "On/Off Switch",
+      "devices": [
+        {
+          "productType": "0x0018",
+          "productId": "0x0001"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x031e/vzw30-sn.json"
+    },
+    {
+      "manufacturer": "Inovelli",
+      "manufacturerId": "0x031e",
       "label": "LZW41",
       "description": "Tunable White Smart Bulb",
       "devices": [
@@ -16659,8 +16672,11 @@
       "devices": [
         {
           "productType": "0x0007",
-          "productId": "0x0081",
-          "zwaveAllianceId": 5078
+          "productId": "0x0081"
+        },
+        {
+          "productType": "0x0004",
+          "productId": "0x0081"
         }
       ],
       "_sourceFile": "zwave-js/packages/config/config/devices/0x0460/qmem-0A1PC16.json"
