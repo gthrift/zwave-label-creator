@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_devices": 2339,
+    "total_devices": 2340,
     "source": "z-wavejs/zwave-js device configurations",
     "extraction_date": null
   },
@@ -4947,6 +4947,19 @@
         }
       ],
       "_sourceFile": "zwave-js/packages/config/config/devices/0x013c/pan30.json"
+    },
+    {
+      "manufacturer": "Philio",
+      "manufacturerId": "0x013c",
+      "label": "PAC03",
+      "description": "Mitsubishi IT Communication Adapter",
+      "devices": [
+        {
+          "productType": "0x0001",
+          "productId": "0x0059"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x013c/pac03.json"
     },
     {
       "manufacturer": "Philio Technology Corp",
