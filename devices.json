@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_devices": 2340,
+    "total_devices": 2341,
     "source": "z-wavejs/zwave-js device configurations",
     "extraction_date": null
   },
@@ -17905,6 +17905,10 @@
           "productType": "0x0102",
           "productId": "0x0013",
           "zwaveAllianceId": 3951
+        },
+        {
+          "productType": "0x0202",
+          "productId": "0x0013"
         }
       ],
       "_sourceFile": "zwave-js/packages/config/config/devices/0x0371/zwa019.json"
@@ -20908,6 +20912,19 @@
         }
       ],
       "_sourceFile": "zwave-js/packages/config/config/devices/0x0063/55250_zw4104.json"
+    },
+    {
+      "manufacturer": "Jasco",
+      "manufacturerId": "0x0063",
+      "label": "76592 / ZWN4016",
+      "description": "In-Wall Smart Switch, 800S",
+      "devices": [
+        {
+          "productType": "0x4952",
+          "productId": "0x3438"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x0063/76592_zwn4016.json"
     },
     {
       "manufacturer": "GE",
