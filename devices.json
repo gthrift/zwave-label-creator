@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_devices": 2341,
+    "total_devices": 2343,
     "source": "z-wavejs/zwave-js device configurations",
     "extraction_date": null
   },
@@ -6148,6 +6148,31 @@
       "_sourceFile": "zwave-js/packages/config/config/devices/0x014a/z-wave_garage_door_tilt_sensor.json"
     },
     {
+      "manufacturer": "Fortune Brands",
+      "manufacturerId": "0x0463",
+      "label": "Handing Lock",
+      "description": "Assure 2 Biometric Deadbolt",
+      "devices": [
+        {
+          "productType": "0x8107",
+          "productId": "0x89d1"
+        },
+        {
+          "productType": "0x8107",
+          "productId": "0x89d2"
+        },
+        {
+          "productType": "0x8107",
+          "productId": "0x89d3"
+        },
+        {
+          "productType": "0x8107",
+          "productId": "0x89d5"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x0463/yrd4x0-f-zw4.json"
+    },
+    {
       "manufacturer": "MCT CO., Ltd.",
       "manufacturerId": "0x0222",
       "label": "MPU100ZW",
@@ -6407,7 +6432,7 @@
       "_sourceFile": "zwave-js/packages/config/config/devices/0x015f/mh5-2d.json"
     },
     {
-      "manufacturer": "MCO Home",
+      "manufacturer": "McoHome Technology Co., Ltd.",
       "manufacturerId": "0x015f",
       "label": "MH-5900",
       "description": "Thermostat",
@@ -15666,6 +15691,18 @@
         },
         {
           "productType": "0x0004",
+          "productId": "0x006a"
+        },
+        {
+          "productType": "0x0004",
+          "productId": "0x006c"
+        },
+        {
+          "productType": "0x0004",
+          "productId": "0x006d"
+        },
+        {
+          "productType": "0x0004",
           "productId": "0x0091"
         },
         {
@@ -15687,6 +15724,10 @@
         {
           "productType": "0x0004",
           "productId": "0x0177"
+        },
+        {
+          "productType": "0x0004",
+          "productId": "0x0393"
         }
       ],
       "_sourceFile": "zwave-js/packages/config/config/devices/0x0267/10002080-13x.json"
@@ -15820,6 +15861,10 @@
           "productType": "0x0007",
           "productId": "0x0000",
           "zwaveAllianceId": 2590
+        },
+        {
+          "productType": "0x0007",
+          "productId": "0x01ba"
         }
       ],
       "_sourceFile": "zwave-js/packages/config/config/devices/0x0267/10002020-13x.json"
@@ -26913,6 +26958,19 @@
       "_sourceFile": "zwave-js/packages/config/config/devices/0x042a/zd2105us-5.json"
     },
     {
+      "manufacturer": "Versa Wireless Inc.",
+      "manufacturerId": "0x0464",
+      "label": "LAMP-ZW2",
+      "description": "Plug-In Lamp Dimmer",
+      "devices": [
+        {
+          "productType": "0xff00",
+          "productId": "0xff0d"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x0464/lamp-zw2.json"
+    },
+    {
       "manufacturer": "2KLIC",
       "manufacturerId": "0x0369",
       "label": "7440-MC-FS",
@@ -35951,6 +36009,10 @@
         {
           "productType": "0x0702",
           "productId": "0x0261"
+        },
+        {
+          "productType": "0x0702",
+          "productId": "0x0243"
         },
         {
           "productType": "0x0801",
