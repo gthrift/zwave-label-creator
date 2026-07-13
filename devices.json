@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_devices": 2343,
+    "total_devices": 2347,
     "source": "z-wavejs/zwave-js device configurations",
     "extraction_date": null
   },
@@ -12892,7 +12892,7 @@
     {
       "manufacturer": "Fibargroup",
       "manufacturerId": "0x010f",
-      "label": "FGMS001",
+      "label": "FGMS-001",
       "description": "Motion Sensor",
       "devices": [
         {
@@ -12950,64 +12950,46 @@
         {
           "productType": "0x8800",
           "productId": "0x3001"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0x8001"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0xa001"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0x6002"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0x7002"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0x8002"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0x9002"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0xa002"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0xb002"
         }
       ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgms001.json"
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgms-001_0_3.1.json"
     },
     {
       "manufacturer": "Fibargroup",
       "manufacturerId": "0x010f",
-      "label": "FGWP102",
-      "description": "Metered Wall Plug Switch",
-      "devices": [
-        {
-          "productType": "0x0602",
-          "productId": "0x1001"
-        },
-        {
-          "productType": "0x0602",
-          "productId": "0x1003"
-        },
-        {
-          "productType": "0x0602",
-          "productId": "0x1004"
-        },
-        {
-          "productType": "0x0602",
-          "productId": "0x4001"
-        },
-        {
-          "productType": "0x0602",
-          "productId": "0x4003"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgwp102.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGR223",
-      "description": "Roller Shutter 3",
-      "devices": [
-        {
-          "productType": "0x0303",
-          "productId": "0x1000"
-        },
-        {
-          "productType": "0x0303",
-          "productId": "0x3000"
-        },
-        {
-          "productType": "0x0303",
-          "productId": "0x4000"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgr223.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGT001",
+      "label": "FGT-001",
       "description": "Thermostatic Valve",
       "devices": [
         {
@@ -13023,337 +13005,12 @@
           "productId": "0x4001"
         }
       ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgt001.json"
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgt-001.json"
     },
     {
       "manufacturer": "Fibargroup",
       "manufacturerId": "0x010f",
-      "label": "FGR221",
-      "description": "Roller Shutter Controller",
-      "devices": [
-        {
-          "productType": "0x0300",
-          "productId": "0x0104"
-        },
-        {
-          "productType": "0x0300",
-          "productId": "0x0106"
-        },
-        {
-          "productType": "0x0300",
-          "productId": "0x0107"
-        },
-        {
-          "productType": "0x0300",
-          "productId": "0x0109"
-        },
-        {
-          "productType": "0x0300",
-          "productId": "0x100a"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgr221.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGWREU-111",
-      "description": "Fibaro Walli Roller Shutter",
-      "devices": [
-        {
-          "productType": "0x1d01",
-          "productId": "0x1000"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgwreu-111.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGWPB-111",
-      "description": "Fibaro Wall Plug",
-      "devices": [
-        {
-          "productType": "0x1701",
-          "productId": "0x2000"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgwpb-111.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGFS101",
-      "description": "Flood Sensor",
-      "devices": [
-        {
-          "productType": "0x0b00",
-          "productId": "0x1001"
-        },
-        {
-          "productType": "0x0b01",
-          "productId": "0x1002"
-        },
-        {
-          "productType": "0x0b01",
-          "productId": "0x1003"
-        },
-        {
-          "productType": "0x0b00",
-          "productId": "0x2001"
-        },
-        {
-          "productType": "0x0b01",
-          "productId": "0x2002"
-        },
-        {
-          "productType": "0x0b01",
-          "productId": "0x2003"
-        },
-        {
-          "productType": "0x0b00",
-          "productId": "0x3001"
-        },
-        {
-          "productType": "0x0b01",
-          "productId": "0x3002"
-        },
-        {
-          "productType": "0x0b01",
-          "productId": "0x3003"
-        },
-        {
-          "productType": "0x0b00",
-          "productId": "0x4001"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgfs101.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGS214",
-      "description": "Smart Module",
-      "devices": [
-        {
-          "productType": "0x0404",
-          "productId": "0x1000"
-        },
-        {
-          "productType": "0x0404",
-          "productId": "0x3000"
-        },
-        {
-          "productType": "0x0404",
-          "productId": "0x4000"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgs214.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGWPG-121",
-      "description": "Fibaro Wall Plug",
-      "devices": [
-        {
-          "productType": "0x1501",
-          "productId": "0x1000"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgwpg-121.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGRGBW-442",
-      "description": "RGBW CONTROLLER 2",
-      "devices": [
-        {
-          "productType": "0x0902",
-          "productId": "0x1000"
-        },
-        {
-          "productType": "0x0902",
-          "productId": "0x2000"
-        },
-        {
-          "productType": "0x0902",
-          "productId": "0x3000"
-        },
-        {
-          "productType": "0x0902",
-          "productId": "0x4000"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgrgbw-442.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "HC3L-001",
-      "description": "Home Center 3 Lite",
-      "devices": [
-        {
-          "productType": "0x0005",
-          "productId": "0x1000",
-          "zwaveAllianceId": 4130
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/hc3l-001.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGBS001",
-      "description": "Universal Binary Sensor",
-      "devices": [
-        {
-          "productType": "0x0501",
-          "productId": "0x0102"
-        },
-        {
-          "productType": "0x0501",
-          "productId": "0x0109"
-        },
-        {
-          "productType": "0x0501",
-          "productId": "0x1002"
-        },
-        {
-          "productType": "0x0501",
-          "productId": "0x2002"
-        },
-        {
-          "productType": "0x0501",
-          "productId": "0x3002"
-        },
-        {
-          "productType": "0x0501",
-          "productId": "0x4002"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgbs001.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGS222",
-      "description": "Double Relay Switch 2x1.5kW",
-      "devices": [
-        {
-          "productType": "0x0202",
-          "productId": "0x1002"
-        },
-        {
-          "productType": "0x0202",
-          "productId": "0x4002"
-        },
-        {
-          "productType": "0x0202",
-          "productId": "0x6002"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgs222.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGWDEU",
-      "description": "Fibaro Walli Dimmer",
-      "devices": [
-        {
-          "productType": "0x010f",
-          "productId": "0x1c01"
-        },
-        {
-          "productType": "0x1c01",
-          "productId": "0x1000"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgwdeu.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGWPE/F-101",
-      "description": "Metered Wall Plug Switch",
-      "devices": [
-        {
-          "productType": "0x0600",
-          "productId": "0x1000",
-          "zwaveAllianceId": 993
-        },
-        {
-          "productType": "0x0600",
-          "productId": "0x4000"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgwp101.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGCD001",
-      "description": "Carbon Monoxide Sensor",
-      "devices": [
-        {
-          "productType": "0x1201",
-          "productId": "0x1000"
-        },
-        {
-          "productType": "0x1201",
-          "productId": "0x1001"
-        },
-        {
-          "productType": "0x1201",
-          "productId": "0x1002"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgcd001.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGK101",
-      "description": "Door Opening Sensor",
-      "devices": [
-        {
-          "productType": "0x0700",
-          "productId": "0x1000"
-        },
-        {
-          "productType": "0x0701",
-          "productId": "0x1001"
-        },
-        {
-          "productType": "0x0700",
-          "productId": "0x2000",
-          "zwaveAllianceId": 1077
-        },
-        {
-          "productType": "0x0701",
-          "productId": "0x2001"
-        },
-        {
-          "productType": "0x0700",
-          "productId": "0x3000"
-        },
-        {
-          "productType": "0x0701",
-          "productId": "0x3001"
-        },
-        {
-          "productType": "0x0700",
-          "productId": "0x4000"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgk101.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGS223",
+      "label": "FGS-223",
       "description": "Double Switch 2",
       "devices": [
         {
@@ -13375,114 +13032,34 @@
         {
           "productType": "0x0203",
           "productId": "0x6000"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgs223.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGBS222",
-      "description": "Smart Implant",
-      "devices": [
-        {
-          "productType": "0x0502",
-          "productId": "0x1000",
-          "zwaveAllianceId": 4153
         },
         {
-          "productType": "0x0502",
-          "productId": "0x2000",
-          "zwaveAllianceId": 4166
-        },
-        {
-          "productType": "0x0502",
-          "productId": "0x3000",
-          "zwaveAllianceId": 4174
-        },
-        {
-          "productType": "0x0502",
-          "productId": "0x4000",
-          "zwaveAllianceId": 4175
-        },
-        {
-          "productType": "0x0502",
-          "productId": "0x6000",
-          "zwaveAllianceId": 4172
-        },
-        {
-          "productType": "0x0502",
-          "productId": "0x7000",
-          "zwaveAllianceId": 4173
-        },
-        {
-          "productType": "0x0502",
-          "productId": "0xb000",
-          "zwaveAllianceId": 4165
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgbs222.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGWPG-111",
-      "description": "Fibaro Wall Plug UK",
-      "devices": [
-        {
-          "productType": "0x1801",
-          "productId": "0x1000"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgwpg-111.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "YH-001",
-      "description": "Yubii Home",
-      "devices": [
-        {
-          "productType": "0x0004",
-          "productId": "0x1000",
-          "zwaveAllianceId": 4107
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/yh-001.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGDW002",
-      "description": "Fibaro Door Window Sensor 2",
-      "devices": [
-        {
-          "productType": "0x0702",
-          "productId": "0x1000"
-        },
-        {
-          "productType": "0x0702",
-          "productId": "0x2000"
-        },
-        {
-          "productType": "0x0702",
-          "productId": "0x3000"
-        },
-        {
-          "productType": "0x0702",
-          "productId": "0x4000"
-        },
-        {
-          "productType": "0x0702",
+          "productType": "0x0203",
           "productId": "0x7000"
+        },
+        {
+          "productType": "0x0203",
+          "productId": "0x8000"
+        },
+        {
+          "productType": "0x0203",
+          "productId": "0x9000"
+        },
+        {
+          "productType": "0x0203",
+          "productId": "0xa000"
+        },
+        {
+          "productType": "0x0203",
+          "productId": "0xb000"
         }
       ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgdw002.json"
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgs-223.json"
     },
     {
       "manufacturer": "Fibargroup",
       "manufacturerId": "0x010f",
-      "label": "FGD211",
+      "label": "FGD-211",
       "description": "Universal Dimmer 500W",
       "devices": [
         {
@@ -13519,110 +13096,200 @@
           "productId": "0x400a"
         }
       ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgd211.json"
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgd-211.json"
     },
     {
       "manufacturer": "Fibargroup",
       "manufacturerId": "0x010f",
-      "label": "HCL",
-      "description": "Fibaro Home Center Lite",
+      "label": "FGR-221",
+      "description": "Roller Shutter Controller",
       "devices": [
         {
-          "productType": "0x0002",
-          "productId": "0x1000",
-          "zwaveAllianceId": 1415
-        },
-        {
-          "productType": "0x0002",
-          "productId": "0x1001",
-          "zwaveAllianceId": 1398
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/hcl.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGS221",
-      "description": "Double Relay Switch 2x1.5kW",
-      "devices": [
-        {
-          "productType": "0x0200",
-          "productId": "0x0102",
-          "zwaveAllianceId": [
-            29,
-            46
-          ]
-        },
-        {
-          "productType": "0x0200",
-          "productId": "0x0103"
-        },
-        {
-          "productType": "0x0200",
+          "productType": "0x0300",
           "productId": "0x0104"
         },
         {
-          "productType": "0x0200",
-          "productId": "0x0105"
-        },
-        {
-          "productType": "0x0200",
+          "productType": "0x0300",
           "productId": "0x0106"
         },
         {
-          "productType": "0x0200",
+          "productType": "0x0300",
           "productId": "0x0107"
         },
         {
-          "productType": "0x0200",
+          "productType": "0x0300",
           "productId": "0x0109"
         },
         {
-          "productType": "0x0200",
+          "productType": "0x0300",
           "productId": "0x100a"
-        },
-        {
-          "productType": "0x0200",
-          "productId": "0x300a"
-        },
-        {
-          "productType": "0x0202",
-          "productId": "0x3002"
-        },
-        {
-          "productType": "0x0200",
-          "productId": "0x400a"
         }
       ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgs221.json"
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgr-221.json"
     },
     {
       "manufacturer": "Fibargroup",
       "manufacturerId": "0x010f",
-      "label": "FGRGBW",
-      "description": "RGBW Controller",
+      "label": "FGRM-222",
+      "description": "Roller Shutter",
       "devices": [
         {
-          "productType": "0x0900",
+          "productType": "0x0301",
+          "productId": "0x1001"
+        },
+        {
+          "productType": "0x0301",
+          "productId": "0x3001"
+        },
+        {
+          "productType": "0x0302",
+          "productId": "0x1000"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgrm-222_0_24.23.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGWREU-111",
+      "description": "Fibaro Walli Roller Shutter",
+      "devices": [
+        {
+          "productType": "0x1d01",
+          "productId": "0x1000"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgwreu-111.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGWPA/B-111",
+      "description": "Fibaro Wall Plug",
+      "devices": [
+        {
+          "productType": "0x1701",
+          "productId": "0x2000"
+        },
+        {
+          "productType": "0x1701",
+          "productId": "0xa000"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgwpb-111.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGWPE/F-101",
+      "description": "Metered Wall Plug Switch",
+      "devices": [
+        {
+          "productType": "0x0600",
           "productId": "0x1000",
-          "zwaveAllianceId": 1054
+          "zwaveAllianceId": 993
         },
         {
-          "productType": "0x0900",
-          "productId": "0x2000",
-          "zwaveAllianceId": 1072
-        },
-        {
-          "productType": "0x0900",
-          "productId": "0x3000"
-        },
-        {
-          "productType": "0x0900",
+          "productType": "0x0600",
           "productId": "0x4000"
         }
       ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgrgbw.json"
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgwp-101.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGWPG-121",
+      "description": "Fibaro Wall Plug",
+      "devices": [
+        {
+          "productType": "0x1501",
+          "productId": "0x1000"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgwpg-121.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGR-222",
+      "description": "Roller Shutter 2",
+      "devices": [
+        {
+          "productType": "0x0300",
+          "productId": "0x0102",
+          "zwaveAllianceId": 38
+        },
+        {
+          "productType": "0x0301",
+          "productId": "0x1001"
+        },
+        {
+          "productType": "0x0302",
+          "productId": "0x1000"
+        },
+        {
+          "productType": "0x0302",
+          "productId": "0x3000"
+        },
+        {
+          "productType": "0x0302",
+          "productId": "0x4000"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgr-222_24.24_255.255.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGWDEU-111",
+      "description": "Fibaro Walli Dimmer",
+      "devices": [
+        {
+          "productType": "0x1c01",
+          "productId": "0x1000"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgwdeu-111.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGRGBW-442",
+      "description": "RGBW Controller 2",
+      "devices": [
+        {
+          "productType": "0x0902",
+          "productId": "0x1000"
+        },
+        {
+          "productType": "0x0902",
+          "productId": "0x2000"
+        },
+        {
+          "productType": "0x0902",
+          "productId": "0x3000"
+        },
+        {
+          "productType": "0x0902",
+          "productId": "0x4000"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgrgbw-442.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "HC3L-001",
+      "description": "Home Center 3 Lite",
+      "devices": [
+        {
+          "productType": "0x0005",
+          "productId": "0x1000",
+          "zwaveAllianceId": 4130
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/hc3l-001.json"
     },
     {
       "manufacturer": "Fibargroup",
@@ -13685,12 +13352,410 @@
           "productId": "0x1014"
         }
       ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgpb101.json"
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgpb-101.json"
     },
     {
       "manufacturer": "Fibargroup",
       "manufacturerId": "0x010f",
-      "label": "FGSD002",
+      "label": "FGS-214",
+      "description": "Smart Module",
+      "devices": [
+        {
+          "productType": "0x0404",
+          "productId": "0x1000"
+        },
+        {
+          "productType": "0x0404",
+          "productId": "0x3000"
+        },
+        {
+          "productType": "0x0404",
+          "productId": "0x4000"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgs-214.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGMS-001",
+      "description": "Motion Sensor",
+      "devices": [
+        {
+          "productType": "0x0800",
+          "productId": "0x1001"
+        },
+        {
+          "productType": "0x0800",
+          "productId": "0x2001"
+        },
+        {
+          "productType": "0x0800",
+          "productId": "0x3001"
+        },
+        {
+          "productType": "0x0800",
+          "productId": "0x4001"
+        },
+        {
+          "productType": "0x0800",
+          "productId": "0x6001"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0x1001"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0x1002"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0x2001"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0x2002"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0x3001"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0x3002"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0x4001"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0x4002"
+        },
+        {
+          "productType": "0x8800",
+          "productId": "0x3001"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0x8001"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0xa001"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0x6002"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0x7002"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0x8002"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0x9002"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0xa002"
+        },
+        {
+          "productType": "0x0801",
+          "productId": "0xb002"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgms-001_3.2_255.255.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGFS-101",
+      "description": "Flood Sensor",
+      "devices": [
+        {
+          "productType": "0x0b00",
+          "productId": "0x1001",
+          "zwaveAllianceId": [
+            994,
+            1036
+          ]
+        },
+        {
+          "productType": "0x0b00",
+          "productId": "0x2001",
+          "zwaveAllianceId": 1041
+        },
+        {
+          "productType": "0x0b00",
+          "productId": "0x3001"
+        },
+        {
+          "productType": "0x0b00",
+          "productId": "0x4001"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgfs-101_zw3.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGWPG-111",
+      "description": "Fibaro Wall Plug UK",
+      "devices": [
+        {
+          "productType": "0x1801",
+          "productId": "0x1000"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgwpg-111.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "YH-001",
+      "description": "Yubii Home",
+      "devices": [
+        {
+          "productType": "0x0004",
+          "productId": "0x1000",
+          "zwaveAllianceId": 4107
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/yh-001.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGWP-102",
+      "description": "Metered Wall Plug Switch",
+      "devices": [
+        {
+          "productType": "0x0602",
+          "productId": "0x1001"
+        },
+        {
+          "productType": "0x0602",
+          "productId": "0x1003"
+        },
+        {
+          "productType": "0x0602",
+          "productId": "0x1004"
+        },
+        {
+          "productType": "0x0602",
+          "productId": "0x4001"
+        },
+        {
+          "productType": "0x0602",
+          "productId": "0x4003"
+        },
+        {
+          "productType": "0x0602",
+          "productId": "0x3003"
+        },
+        {
+          "productType": "0x0602",
+          "productId": "0x6003"
+        },
+        {
+          "productType": "0x0602",
+          "productId": "0x7003"
+        },
+        {
+          "productType": "0x0602",
+          "productId": "0x8003"
+        },
+        {
+          "productType": "0x0602",
+          "productId": "0xb003"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgwp-102_3.2_255.255.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGBS-001",
+      "description": "Universal Binary Sensor",
+      "devices": [
+        {
+          "productType": "0x0501",
+          "productId": "0x0102"
+        },
+        {
+          "productType": "0x0501",
+          "productId": "0x0109"
+        },
+        {
+          "productType": "0x0501",
+          "productId": "0x1002"
+        },
+        {
+          "productType": "0x0501",
+          "productId": "0x2002"
+        },
+        {
+          "productType": "0x0501",
+          "productId": "0x3002"
+        },
+        {
+          "productType": "0x0501",
+          "productId": "0x4002"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgbs-001.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "HCL",
+      "description": "Fibaro Home Center Lite",
+      "devices": [
+        {
+          "productType": "0x0002",
+          "productId": "0x1000",
+          "zwaveAllianceId": 1415
+        },
+        {
+          "productType": "0x0002",
+          "productId": "0x1001",
+          "zwaveAllianceId": 1398
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/hcl.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGS-221",
+      "description": "Double Relay Switch 2x1.5kW",
+      "devices": [
+        {
+          "productType": "0x0200",
+          "productId": "0x0102",
+          "zwaveAllianceId": [
+            29,
+            46
+          ]
+        },
+        {
+          "productType": "0x0200",
+          "productId": "0x0103"
+        },
+        {
+          "productType": "0x0200",
+          "productId": "0x0104"
+        },
+        {
+          "productType": "0x0200",
+          "productId": "0x0105"
+        },
+        {
+          "productType": "0x0200",
+          "productId": "0x0106"
+        },
+        {
+          "productType": "0x0200",
+          "productId": "0x0107"
+        },
+        {
+          "productType": "0x0200",
+          "productId": "0x0109"
+        },
+        {
+          "productType": "0x0200",
+          "productId": "0x100a"
+        },
+        {
+          "productType": "0x0200",
+          "productId": "0x300a"
+        },
+        {
+          "productType": "0x0202",
+          "productId": "0x3002"
+        },
+        {
+          "productType": "0x0200",
+          "productId": "0x400a"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgs-221.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGFS-101",
+      "description": "Flood Sensor",
+      "devices": [
+        {
+          "productType": "0x0b01",
+          "productId": "0x1002"
+        },
+        {
+          "productType": "0x0b01",
+          "productId": "0x1003"
+        },
+        {
+          "productType": "0x0b01",
+          "productId": "0x2002"
+        },
+        {
+          "productType": "0x0b01",
+          "productId": "0x2003"
+        },
+        {
+          "productType": "0x0b01",
+          "productId": "0x3002"
+        },
+        {
+          "productType": "0x0b01",
+          "productId": "0x3003"
+        },
+        {
+          "productType": "0x0b01",
+          "productId": "0xa002"
+        },
+        {
+          "productType": "0x0b01",
+          "productId": "0x4003"
+        },
+        {
+          "productType": "0x0b01",
+          "productId": "0x6003"
+        },
+        {
+          "productType": "0x0b01",
+          "productId": "0x7003"
+        },
+        {
+          "productType": "0x0b01",
+          "productId": "0x8003"
+        },
+        {
+          "productType": "0x0b01",
+          "productId": "0x9003"
+        },
+        {
+          "productType": "0x0b01",
+          "productId": "0xa003"
+        },
+        {
+          "productType": "0x0b01",
+          "productId": "0xb003"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgfs-101_zw5.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGSD-002",
       "description": "Smoke Detector",
       "devices": [
         {
@@ -13704,9 +13769,41 @@
         {
           "productType": "0x0c02",
           "productId": "0x4002"
+        },
+        {
+          "productType": "0x0c02",
+          "productId": "0x2003"
+        },
+        {
+          "productType": "0x0c02",
+          "productId": "0x3003"
+        },
+        {
+          "productType": "0x0c02",
+          "productId": "0x4003"
+        },
+        {
+          "productType": "0x0c02",
+          "productId": "0x6003"
+        },
+        {
+          "productType": "0x0c02",
+          "productId": "0x7003"
+        },
+        {
+          "productType": "0x0c02",
+          "productId": "0x9003"
+        },
+        {
+          "productType": "0x0c02",
+          "productId": "0xa003"
+        },
+        {
+          "productType": "0x0c02",
+          "productId": "0xb003"
         }
       ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgsd002.json"
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgsd-002.json"
     },
     {
       "manufacturer": "Fibargroup",
@@ -13728,7 +13825,476 @@
     {
       "manufacturer": "Fibargroup",
       "manufacturerId": "0x010f",
-      "label": "FGS211",
+      "label": "FGS-222",
+      "description": "Double Relay Switch 2x1.5kW",
+      "devices": [
+        {
+          "productType": "0x0202",
+          "productId": "0x1002"
+        },
+        {
+          "productType": "0x0202",
+          "productId": "0x4002"
+        },
+        {
+          "productType": "0x0202",
+          "productId": "0x6002"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgs-222.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGWCEU-201",
+      "description": "Walli Controller",
+      "devices": [
+        {
+          "productType": "0x2301",
+          "productId": "0x1000"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgwceu-201.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "HC2",
+      "description": "Fibaro",
+      "devices": [
+        {
+          "productType": "0x0001",
+          "productId": "0x1001",
+          "zwaveAllianceId": 1357
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/hc2.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGK-101",
+      "description": "Door Opening Sensor",
+      "devices": [
+        {
+          "productType": "0x0700",
+          "productId": "0x1000"
+        },
+        {
+          "productType": "0x0701",
+          "productId": "0x1001"
+        },
+        {
+          "productType": "0x0700",
+          "productId": "0x2000",
+          "zwaveAllianceId": 1077
+        },
+        {
+          "productType": "0x0701",
+          "productId": "0x2001"
+        },
+        {
+          "productType": "0x0700",
+          "productId": "0x3000"
+        },
+        {
+          "productType": "0x0701",
+          "productId": "0x3001"
+        },
+        {
+          "productType": "0x0700",
+          "productId": "0x4000"
+        },
+        {
+          "productType": "0x0702",
+          "productId": "0x1002"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgk-101_3.2_255.255.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGCD-001",
+      "description": "Carbon Monoxide Sensor",
+      "devices": [
+        {
+          "productType": "0x1201",
+          "productId": "0x1000"
+        },
+        {
+          "productType": "0x1201",
+          "productId": "0x1001"
+        },
+        {
+          "productType": "0x1201",
+          "productId": "0x1002"
+        },
+        {
+          "productType": "0x1201",
+          "productId": "0x4001"
+        },
+        {
+          "productType": "0x1201",
+          "productId": "0x6001"
+        },
+        {
+          "productType": "0x1201",
+          "productId": "0x7001"
+        },
+        {
+          "productType": "0x1201",
+          "productId": "0x8001"
+        },
+        {
+          "productType": "0x1201",
+          "productId": "0x9001"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgcd-001.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGKF-601",
+      "description": "Keyfob",
+      "devices": [
+        {
+          "productType": "0x1001",
+          "productId": "0x1000"
+        },
+        {
+          "productType": "0x1001",
+          "productId": "0x2000"
+        },
+        {
+          "productType": "0x1001",
+          "productId": "0x3000"
+        },
+        {
+          "productType": "0x1001",
+          "productId": "0x4000"
+        },
+        {
+          "productType": "0x1001",
+          "productId": "0x6000"
+        },
+        {
+          "productType": "0x1001",
+          "productId": "0x7000"
+        },
+        {
+          "productType": "0x1001",
+          "productId": "0x8000"
+        },
+        {
+          "productType": "0x1001",
+          "productId": "0x9000"
+        },
+        {
+          "productType": "0x1001",
+          "productId": "0xa000"
+        },
+        {
+          "productType": "0x1001",
+          "productId": "0xb000"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgkf-601.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGR-223",
+      "description": "Roller Shutter 3",
+      "devices": [
+        {
+          "productType": "0x0303",
+          "productId": "0x1000"
+        },
+        {
+          "productType": "0x0303",
+          "productId": "0x3000"
+        },
+        {
+          "productType": "0x0303",
+          "productId": "0x4000"
+        },
+        {
+          "productType": "0x0303",
+          "productId": "0xb000"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgr-223.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGSS-001",
+      "description": "Smoke Sensor",
+      "devices": [
+        {
+          "productType": "0x0c00",
+          "productId": "0x1000",
+          "zwaveAllianceId": 1049
+        },
+        {
+          "productType": "0x0c00",
+          "productId": "0x3000"
+        },
+        {
+          "productType": "0x0c00",
+          "productId": "0x4000"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgss-001.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGDW-002",
+      "description": "Fibaro Door Window Sensor 2",
+      "devices": [
+        {
+          "productType": "0x0702",
+          "productId": "0x1000"
+        },
+        {
+          "productType": "0x0702",
+          "productId": "0x2000"
+        },
+        {
+          "productType": "0x0702",
+          "productId": "0x3000"
+        },
+        {
+          "productType": "0x0702",
+          "productId": "0x4000"
+        },
+        {
+          "productType": "0x0702",
+          "productId": "0x7000"
+        },
+        {
+          "productType": "0x0702",
+          "productId": "0x6000"
+        },
+        {
+          "productType": "0x0702",
+          "productId": "0x8000"
+        },
+        {
+          "productType": "0x0702",
+          "productId": "0x9000"
+        },
+        {
+          "productType": "0x0702",
+          "productId": "0xa000"
+        },
+        {
+          "productType": "0x0702",
+          "productId": "0xb000"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgdw-002.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGWOE-011",
+      "description": "Fibaro Walli Outlet Type E/F",
+      "devices": [
+        {
+          "productType": "0x1f01",
+          "productId": "0x1000"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgwoe-011.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGS-224",
+      "description": "Double Smart Module",
+      "devices": [
+        {
+          "productType": "0x0204",
+          "productId": "0x1000"
+        },
+        {
+          "productType": "0x0204",
+          "productId": "0x3000"
+        },
+        {
+          "productType": "0x0204",
+          "productId": "0x4000"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgs-224.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGS-212",
+      "description": "Relay Switch 1x2.5kW",
+      "devices": [
+        {
+          "productType": "0x0401",
+          "productId": "0x100a"
+        },
+        {
+          "productType": "0x0402",
+          "productId": "0x1002"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgs-212.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGD-212",
+      "description": "Dimmer 2",
+      "devices": [
+        {
+          "productType": "0x0102",
+          "productId": "0x1000"
+        },
+        {
+          "productType": "0x0102",
+          "productId": "0x1001"
+        },
+        {
+          "productType": "0x0102",
+          "productId": "0x2000"
+        },
+        {
+          "productType": "0x0102",
+          "productId": "0x3000"
+        },
+        {
+          "productType": "0x0102",
+          "productId": "0x4000"
+        },
+        {
+          "productType": "0x0102",
+          "productId": "0x6000"
+        },
+        {
+          "productType": "0x0102",
+          "productId": "0x7000"
+        },
+        {
+          "productType": "0x0102",
+          "productId": "0x8000"
+        },
+        {
+          "productType": "0x0102",
+          "productId": "0x9000"
+        },
+        {
+          "productType": "0x0102",
+          "productId": "0xa000"
+        },
+        {
+          "productType": "0x0102",
+          "productId": "0xb000"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgd-212.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGWPB-121",
+      "description": "Fibaro Wall Plug",
+      "devices": [
+        {
+          "productType": "0x1401",
+          "productId": "0x2000"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgwpb-121.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGGC-001",
+      "description": "Fibaro Swipe Scene Controller",
+      "devices": [
+        {
+          "productType": "0x0d01",
+          "productId": "0x1000"
+        },
+        {
+          "productType": "0x0d01",
+          "productId": "0x2000"
+        },
+        {
+          "productType": "0x0d01",
+          "productId": "0x3000"
+        },
+        {
+          "productType": "0x0d01",
+          "productId": "0x4000"
+        },
+        {
+          "productType": "0x0d01",
+          "productId": "0x6000"
+        },
+        {
+          "productType": "0x0d01",
+          "productId": "0x7000"
+        },
+        {
+          "productType": "0x0d01",
+          "productId": "0x8000"
+        },
+        {
+          "productType": "0x0d01",
+          "productId": "0x9000"
+        },
+        {
+          "productType": "0x0d01",
+          "productId": "0xa000"
+        },
+        {
+          "productType": "0x0d01",
+          "productId": "0xb000"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fggc-001.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGRGBWM-441",
+      "description": "RGBW Controller",
+      "devices": [
+        {
+          "productType": "0x0900",
+          "productId": "0x1000",
+          "zwaveAllianceId": 1054
+        },
+        {
+          "productType": "0x0900",
+          "productId": "0x2000",
+          "zwaveAllianceId": 1072
+        },
+        {
+          "productType": "0x0900",
+          "productId": "0x3000"
+        },
+        {
+          "productType": "0x0900",
+          "productId": "0x4000"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgrgbwm-441.json"
+    },
+    {
+      "manufacturer": "Fibargroup",
+      "manufacturerId": "0x010f",
+      "label": "FGS-211",
       "description": "Relay Switch 1x3kW",
       "devices": [
         {
@@ -13772,192 +14338,120 @@
           "productId": "0x3002"
         }
       ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgs211.json"
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgs-211.json"
     },
     {
       "manufacturer": "Fibargroup",
       "manufacturerId": "0x010f",
-      "label": "FGWCEU-201",
-      "description": "Walli Controller",
+      "label": "FGK-101",
+      "description": "Door Opening Sensor",
       "devices": [
         {
-          "productType": "0x2301",
-          "productId": "0x1000"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgwceu-201.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "HC2",
-      "description": "Fibaro",
-      "devices": [
-        {
-          "productType": "0x0001",
-          "productId": "0x1001",
-          "zwaveAllianceId": 1357
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/hc2.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGD212",
-      "description": "Dimmer 2",
-      "devices": [
-        {
-          "productType": "0x0102",
+          "productType": "0x0700",
           "productId": "0x1000"
         },
         {
-          "productType": "0x0102",
+          "productType": "0x0701",
           "productId": "0x1001"
         },
         {
-          "productType": "0x0102",
-          "productId": "0x2000"
+          "productType": "0x0700",
+          "productId": "0x2000",
+          "zwaveAllianceId": 1077
         },
         {
-          "productType": "0x0102",
+          "productType": "0x0701",
+          "productId": "0x2001"
+        },
+        {
+          "productType": "0x0700",
           "productId": "0x3000"
         },
         {
-          "productType": "0x0102",
-          "productId": "0x4000"
+          "productType": "0x0701",
+          "productId": "0x3001"
         },
         {
-          "productType": "0x0102",
-          "productId": "0x6000"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgd212.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGGC001",
-      "description": "Fibaro Swipe Scene Controller",
-      "devices": [
-        {
-          "productType": "0x0d01",
-          "productId": "0x1000"
-        },
-        {
-          "productType": "0x0d01",
-          "productId": "0x2000"
-        },
-        {
-          "productType": "0x0d01",
-          "productId": "0x3000"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fggc001.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGWOE-011",
-      "description": "Fibaro Walli Outlet Type E/F",
-      "devices": [
-        {
-          "productType": "0x1f01",
-          "productId": "0x1000"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgwoe-011.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGFS-101",
-      "description": "Fibaro Flood Sensor",
-      "devices": [
-        {
-          "productType": "0x0000",
-          "productId": "0x1001",
-          "zwaveAllianceId": [
-            1036,
-            994
-          ]
-        },
-        {
-          "productType": "0x0000",
-          "productId": "0x2001",
-          "zwaveAllianceId": 1041
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgfs-101.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGS224",
-      "description": "Double Smart Module",
-      "devices": [
-        {
-          "productType": "0x0204",
-          "productId": "0x1000"
-        },
-        {
-          "productType": "0x0204",
-          "productId": "0x3000"
-        },
-        {
-          "productType": "0x0204",
+          "productType": "0x0700",
           "productId": "0x4000"
         }
       ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgs224.json"
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgk-101_0_3.1.json"
     },
     {
       "manufacturer": "Fibargroup",
       "manufacturerId": "0x010f",
-      "label": "FGWPB-121",
-      "description": "Fibaro Wall Plug",
+      "label": "FGBS-222",
+      "description": "Smart Implant",
       "devices": [
         {
-          "productType": "0x1401",
-          "productId": "0x2000"
+          "productType": "0x0502",
+          "productId": "0x1000",
+          "zwaveAllianceId": 4153
+        },
+        {
+          "productType": "0x0502",
+          "productId": "0x2000",
+          "zwaveAllianceId": 4166
+        },
+        {
+          "productType": "0x0502",
+          "productId": "0x3000",
+          "zwaveAllianceId": 4174
+        },
+        {
+          "productType": "0x0502",
+          "productId": "0x4000",
+          "zwaveAllianceId": 4175
+        },
+        {
+          "productType": "0x0502",
+          "productId": "0x6000",
+          "zwaveAllianceId": 4172
+        },
+        {
+          "productType": "0x0502",
+          "productId": "0x7000",
+          "zwaveAllianceId": 4173
+        },
+        {
+          "productType": "0x0502",
+          "productId": "0xb000",
+          "zwaveAllianceId": 4165
+        },
+        {
+          "productType": "0x0502",
+          "productId": "0x8000"
+        },
+        {
+          "productType": "0x0502",
+          "productId": "0x9000"
+        },
+        {
+          "productType": "0x0502",
+          "productId": "0xa000"
         }
       ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgwpb-121.json"
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgbs-222.json"
     },
     {
       "manufacturer": "Fibargroup",
       "manufacturerId": "0x010f",
-      "label": "FGR222",
-      "description": "Roller Shutter 2",
+      "label": "FGHC3-001",
+      "description": "Home Center 3",
       "devices": [
         {
-          "productType": "0x0300",
-          "productId": "0x0102",
-          "zwaveAllianceId": 38
-        },
-        {
-          "productType": "0x0301",
-          "productId": "0x1001"
-        },
-        {
-          "productType": "0x0302",
-          "productId": "0x1000"
-        },
-        {
-          "productType": "0x0302",
-          "productId": "0x3000"
-        },
-        {
-          "productType": "0x0302",
-          "productId": "0x4000"
+          "productType": "0x0003",
+          "productId": "0x1000",
+          "zwaveAllianceId": 4086
         }
       ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgr222_24.24_255.255.json"
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fghc3-001.json"
     },
     {
       "manufacturer": "Fibargroup",
       "manufacturerId": "0x010f",
-      "label": "FGS213",
+      "label": "FGS-213",
       "description": "Single Switch 2",
       "devices": [
         {
@@ -13979,108 +14473,78 @@
         {
           "productType": "0x0403",
           "productId": "0x6000"
+        },
+        {
+          "productType": "0x0403",
+          "productId": "0x7000"
+        },
+        {
+          "productType": "0x0403",
+          "productId": "0x8000"
+        },
+        {
+          "productType": "0x0403",
+          "productId": "0x9000"
+        },
+        {
+          "productType": "0x0403",
+          "productId": "0xa000"
+        },
+        {
+          "productType": "0x0403",
+          "productId": "0xb000"
         }
       ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgs213.json"
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgs-213.json"
     },
     {
       "manufacturer": "Fibargroup",
       "manufacturerId": "0x010f",
-      "label": "FGSS001",
-      "description": "Smoke Sensor",
+      "label": "FGWP-102",
+      "description": "Metered Wall Plug Switch",
       "devices": [
         {
-          "productType": "0x0c00",
-          "productId": "0x1000",
-          "zwaveAllianceId": 1049
-        },
-        {
-          "productType": "0x0c00",
-          "productId": "0x3000"
-        },
-        {
-          "productType": "0x0c00",
-          "productId": "0x4000"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgss001.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGRM222",
-      "description": "Roller Shutter",
-      "devices": [
-        {
-          "productType": "0x0301",
+          "productType": "0x0602",
           "productId": "0x1001"
         },
         {
-          "productType": "0x0301",
-          "productId": "0x3001"
+          "productType": "0x0602",
+          "productId": "0x1003"
         },
         {
-          "productType": "0x0302",
-          "productId": "0x1000"
+          "productType": "0x0602",
+          "productId": "0x1004"
+        },
+        {
+          "productType": "0x0602",
+          "productId": "0x4001"
+        },
+        {
+          "productType": "0x0602",
+          "productId": "0x4003"
+        },
+        {
+          "productType": "0x0602",
+          "productId": "0x3003"
+        },
+        {
+          "productType": "0x0602",
+          "productId": "0x6003"
+        },
+        {
+          "productType": "0x0602",
+          "productId": "0x7003"
+        },
+        {
+          "productType": "0x0602",
+          "productId": "0x8003"
+        },
+        {
+          "productType": "0x0602",
+          "productId": "0xb003"
         }
       ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgrm222_0_24.23.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGKF601",
-      "description": "Keyfob",
-      "devices": [
-        {
-          "productType": "0x1001",
-          "productId": "0x1000"
-        },
-        {
-          "productType": "0x1001",
-          "productId": "0x2000"
-        },
-        {
-          "productType": "0x1001",
-          "productId": "0x3000"
-        },
-        {
-          "productType": "0x1001",
-          "productId": "0x4000"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgkf601.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGS212",
-      "description": "Relay Switch 1x2.5kW",
-      "devices": [
-        {
-          "productType": "0x0401",
-          "productId": "0x100a"
-        },
-        {
-          "productType": "0x0402",
-          "productId": "0x1002"
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgs212.json"
-    },
-    {
-      "manufacturer": "Fibargroup",
-      "manufacturerId": "0x010f",
-      "label": "FGHC3-001",
-      "description": "Home Center 3",
-      "devices": [
-        {
-          "productType": "0x0003",
-          "productId": "0x1000",
-          "zwaveAllianceId": 4086
-        }
-      ],
-      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fghc3-001.json"
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgwp-102_0_3.1.json"
     },
     {
       "manufacturer": "ZVIDAR",
@@ -35409,6 +35873,19 @@
         }
       ],
       "_sourceFile": "zwave-js/packages/config/config/devices/0x019c/pm-360.json"
+    },
+    {
+      "manufacturer": "International Integrated Systems, Inc. (IISI)",
+      "manufacturerId": "0x0338",
+      "label": "GR-105N",
+      "description": "Auto Valve",
+      "devices": [
+        {
+          "productType": "0x0004",
+          "productId": "0x0002"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x0338/gr-105n.json"
     },
     {
       "manufacturer": "Leviton",
