@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_devices": 2349,
+    "total_devices": 2350,
     "source": "z-wavejs/zwave-js device configurations",
     "extraction_date": null
   },
@@ -17733,6 +17733,19 @@
     {
       "manufacturer": "Heatit",
       "manufacturerId": "0x019b",
+      "label": "Z-TRM7",
+      "description": "Thermostat",
+      "devices": [
+        {
+          "productType": "0x0030",
+          "productId": "0x3006"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x019b/z-trm7.json"
+    },
+    {
+      "manufacturer": "Heatit",
+      "manufacturerId": "0x019b",
       "label": "Z Push Button 2",
       "description": "Wall Mounted Switch",
       "devices": [
@@ -25597,6 +25610,10 @@
           "productType": "0x8014",
           "productId": "0x1600",
           "zwaveAllianceId": 2911
+        },
+        {
+          "productType": "0x8014",
+          "productId": "0x5600"
         }
       ],
       "_sourceFile": "zwave-js/packages/config/config/devices/0x0129/yrm276.json"
