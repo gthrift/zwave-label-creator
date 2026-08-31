@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_devices": 2350,
+    "total_devices": 2351,
     "source": "z-wavejs/zwave-js device configurations",
     "extraction_date": null
   },
@@ -36685,6 +36685,19 @@
         }
       ],
       "_sourceFile": "zwave-js/packages/config/config/devices/0x0267/10002041-130.json"
+    },
+    {
+      "manufacturer": "SimonTech S.L.U",
+      "manufacturerId": "0x0267",
+      "label": "10002181-13x",
+      "description": "Simon 100: Battery Master Roller Blind",
+      "devices": [
+        {
+          "productType": "0x0006",
+          "productId": "0x0000"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x0267/10002181-13x.json"
     },
     {
       "manufacturer": "SimonTech S.L.U",
