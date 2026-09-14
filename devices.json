@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_devices": 2352,
+    "total_devices": 2358,
     "source": "z-wavejs/zwave-js device configurations",
     "extraction_date": null
   },
@@ -6330,6 +6330,27 @@
     {
       "manufacturer": "Aeotec Ltd.",
       "manufacturerId": "0x0371",
+      "label": "ZWA055",
+      "description": "Door / Window Sensor 8",
+      "devices": [
+        {
+          "productType": "0x0002",
+          "productId": "0x0037"
+        },
+        {
+          "productType": "0x0102",
+          "productId": "0x0037"
+        },
+        {
+          "productType": "0x0202",
+          "productId": "0x0037"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x0371/zwa055.json"
+    },
+    {
+      "manufacturer": "Aeotec Ltd.",
+      "manufacturerId": "0x0371",
       "label": "ZWA020",
       "description": "AutoPilot",
       "devices": [
@@ -6368,6 +6389,39 @@
         }
       ],
       "_sourceFile": "zwave-js/packages/config/config/devices/0x0371/zwa042.json"
+    },
+    {
+      "manufacturer": "Aeotec Ltd.",
+      "manufacturerId": "0x0371",
+      "label": "ZWA065",
+      "description": "Siren 8",
+      "devices": [
+        {
+          "productType": "0x0103",
+          "productId": "0x0041"
+        },
+        {
+          "productType": "0x0104",
+          "productId": "0x0041"
+        },
+        {
+          "productType": "0x0003",
+          "productId": "0x0041"
+        },
+        {
+          "productType": "0x0004",
+          "productId": "0x0041"
+        },
+        {
+          "productType": "0x0203",
+          "productId": "0x0041"
+        },
+        {
+          "productType": "0x0204",
+          "productId": "0x0041"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x0371/zwa065.json"
     },
     {
       "manufacturer": "Aeotec Ltd.",
@@ -6447,6 +6501,27 @@
     {
       "manufacturer": "Aeotec Ltd.",
       "manufacturerId": "0x0371",
+      "label": "ZWA056",
+      "description": "Water Sensor 8",
+      "devices": [
+        {
+          "productType": "0x0002",
+          "productId": "0x0038"
+        },
+        {
+          "productType": "0x0102",
+          "productId": "0x0038"
+        },
+        {
+          "productType": "0x0202",
+          "productId": "0x0038"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x0371/zwa056.json"
+    },
+    {
+      "manufacturer": "Aeotec Ltd.",
+      "manufacturerId": "0x0371",
       "label": "ZWA045",
       "description": "TriSensor 8",
       "devices": [
@@ -6502,6 +6577,23 @@
         }
       ],
       "_sourceFile": "zwave-js/packages/config/config/devices/0x0371/zwa006.json"
+    },
+    {
+      "manufacturer": "Aeotec Ltd.",
+      "manufacturerId": "0x0371",
+      "label": "ZWA057",
+      "description": "aërQ Temperature and Humidity Sensor 8",
+      "devices": [
+        {
+          "productType": "0x0002",
+          "productId": "0x0039"
+        },
+        {
+          "productType": "0x0102",
+          "productId": "0x0039"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x0371/zwa057.json"
     },
     {
       "manufacturer": "Aeotec Ltd.",
@@ -11572,6 +11664,19 @@
         }
       ],
       "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgfs-101_zw3.json"
+    },
+    {
+      "manufacturer": "Nice",
+      "manufacturerId": "0x010f",
+      "label": "FGD-223",
+      "description": "Double Dimmer-Control",
+      "devices": [
+        {
+          "productType": "0x0103",
+          "productId": "0x1000"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x010f/fgd-223.json"
     },
     {
       "manufacturer": "Fibargroup",
@@ -32013,6 +32118,19 @@
     {
       "manufacturer": "Shenzhen Neo Electronics Co., Ltd.",
       "manufacturerId": "0x0258",
+      "label": "NAS-WS02Z",
+      "description": "Water Sensor",
+      "devices": [
+        {
+          "productType": "0x0100",
+          "productId": "0x1025"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x0258/nas-ws02z.json"
+    },
+    {
+      "manufacturer": "Shenzhen Neo Electronics Co., Ltd.",
+      "manufacturerId": "0x0258",
       "label": "NAS_PD02Z-2",
       "description": "PIR Motion, Temperature & Light Sensor",
       "devices": [
@@ -34754,6 +34872,10 @@
           "productType": "0x0100",
           "productId": "0x8493",
           "zwaveAllianceId": 4788
+        },
+        {
+          "productType": "0x0102",
+          "productId": "0x8493"
         }
       ],
       "_sourceFile": "zwave-js/packages/config/config/devices/0x5254/zxt-800.json"
