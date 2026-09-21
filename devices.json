@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_devices": 2358,
+    "total_devices": 2359,
     "source": "z-wavejs/zwave-js device configurations",
     "extraction_date": null
   },
@@ -6114,6 +6114,27 @@
         }
       ],
       "_sourceFile": "zwave-js/packages/config/config/devices/0x0371/zwa001.json"
+    },
+    {
+      "manufacturer": "Aeotec Ltd.",
+      "manufacturerId": "0x0371",
+      "label": "ZWA066",
+      "description": "MultiSensor 8",
+      "devices": [
+        {
+          "productType": "0x0002",
+          "productId": "0x0042"
+        },
+        {
+          "productType": "0x0102",
+          "productId": "0x0042"
+        },
+        {
+          "productType": "0x0202",
+          "productId": "0x0042"
+        }
+      ],
+      "_sourceFile": "zwave-js/packages/config/config/devices/0x0371/zwa066.json"
     },
     {
       "manufacturer": "Aeotec Ltd.",
